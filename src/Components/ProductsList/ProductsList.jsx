@@ -31,6 +31,7 @@ const ProductsList = () => {
     window.scroll(0, 0);
   }, [subcategory]);
 
+  console.log(subcategory,"subc")
   function fiterCategory() {
     const filterData = data.filter((el) => el.sub_category == subcategory);
 
