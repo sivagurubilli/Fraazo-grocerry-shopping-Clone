@@ -55,43 +55,5 @@ One day I visit the fraazo site and I saw their good looking UI and Some functio
 
 <hr/>
 
-- ### Login Page :
-  ![alt text](/Demo/loginPopup.png)
-
-<hr/>
-
-
-- ### Category Best products Slider :
-  ![alt text](/Demo/CategoryBestSlider.png)
-
-<hr/>
-
-- ### Categories Page :
-  ![alt text](/Demo/categories.png)
-
-<hr/>
-
-- ### CartItems Side bar :
-  ![alt text](/Demo/cartItems.png)
-
-
-<hr/>
-
-- ### Products Listing Page :
-  ![alt text](/Demo/cart&CheckOut.png)
-
-
-<hr/>
-
-
-- ### Footer Part :
-  ![alt text](/Demo/footerpart.png)
-
-<hr/>
-
-
-- ### Responsive Design :
-  ![alt text](/Demo/responsive.png)
-
 
 <h1>Thank you for visiting...!</h1>
