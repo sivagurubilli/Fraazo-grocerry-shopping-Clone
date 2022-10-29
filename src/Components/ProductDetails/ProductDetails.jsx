@@ -45,10 +45,7 @@ const ProductDetails = () => {
               </div>
             </div>
             <div className="add_cart_buttonDiv">
-              {/* <button className="add_cart_btn">
-                <FaCartPlus />
-                ADD
-              </button> */}
+             
                <AddToCartBtn prod={product} />
             </div>
             <div className="product_details_tabs">

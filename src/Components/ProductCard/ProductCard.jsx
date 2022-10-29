@@ -46,17 +46,7 @@ const ProductCard = ({ prod }) => {
             </div>
           </div>
           <div className="add_cart_buttonDiv">
-            {/* {presentInCart ? (
-              "Added"
-            ) : (
-              <button
-                className="add_cart_btn"
-                onClick={() => dispatch(addToCart(prod))}
-              >
-                <FaCartPlus />
-                ADD
-              </button>
-            )} */}
+          
             <AddToCartBtn prod={prod} />
           </div>
         </div>
