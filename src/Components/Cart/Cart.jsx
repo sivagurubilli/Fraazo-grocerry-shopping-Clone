@@ -65,6 +65,7 @@ export default function Cart({ openCart, setOpenCart }) {
                     {ele.prize}
                   </div>
                 </div>
+                
                 <div className="cart_prod_remove_add">
                   <div className="cart_prod_remove" onClick={()=>dispatch(removeFromCart(ele))}>Remove</div>
                   <div className="cart_prod_add_reduce">

@@ -2,6 +2,7 @@ import React from "react";
 
 import { Stack, Button, TextField } from "@mui/material";
 
+// checkout form
 const CheckOutAddForm = ({ userInfo }) => {
   return (
     <div className="checkout_address_form_wrapper">

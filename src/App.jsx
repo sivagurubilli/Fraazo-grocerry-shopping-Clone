@@ -55,10 +55,10 @@ function App() {
             path="/checkout"
             element={
               <Elements stripe={promise}>
-                {/* <PrivateRoute isLogin={isLoggedIn}> */}
+               
                 <Checkout />
                 {!isLoggedIn && <Login open={true} setOpen={setOpen} />}
-                {/* </PrivateRoute> */}
+                
               </Elements>
             }
           />

@@ -19,8 +19,7 @@ export const store = createStore(
   rootReducer,
   composeWithDevTools(
     applyMiddleware(thunk)
-    // other store enhancers if any
+    
   )
 );
 
-// store.subscribe(() => console.log(store.getState()));
