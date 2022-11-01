@@ -11,8 +11,7 @@ const KitchenStaples = () => {
   const data = useSelector((state) =>
     state.product.data.filter(
       (el) =>
-        el.category.trim() === "Kitchen Staples" ||
-        el.category.trim() === "kitchenstapels"
+        el.category.trim() === "kitchenStaples" 
     )
   );
   return (

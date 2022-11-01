@@ -6,6 +6,7 @@ const initial = {
   data: [],
 };
 export const productReducer = (state = initial, { type, payload }) => {
+  console.log(payload,"pay")
   switch (type) {
     case PROD_LOADING:
       return { ...state, loading: payload };

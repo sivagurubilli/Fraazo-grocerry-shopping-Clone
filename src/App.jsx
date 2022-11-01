@@ -35,7 +35,7 @@ function App() {
     <div className="App">
 
 
-      div.welc
+   
 
       <Navbar />
 
@@ -84,7 +84,7 @@ function App() {
             element={<ProductsList />}
           />
           <Route
-            path="/products/kitchenstapels/:subcategory"
+            path="/products/kitchenStaples/:subcategory"
             element={<ProductsList />}
           />
           <Route

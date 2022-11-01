@@ -11,8 +11,8 @@ const DryFruits = () => {
   const data = useSelector((state) =>
     state.product.data.filter(
       (el) =>
-        el.category.trim() === "Dry Fruits" ||
-        el.category.trim() === "dryfruits"
+       
+        el.category.trim() === "dryFruits"
     )
   );
   return (

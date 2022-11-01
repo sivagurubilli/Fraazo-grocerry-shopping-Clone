@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 const CheckOutBillDetails = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
 
-  const cartTotal = cartItems.reduce((acc,el) =>{ return acc + el.cart * el.prize}, 0);
+  const cartTotal = cartItems.reduce((acc,el) =>{ return acc + el.cart * el.price}, 0);
   const cartAferDisc = cartTotal - ((cartTotal / 100) * 5);
   return (
     <div className="checkout_bill_details_wrapper">

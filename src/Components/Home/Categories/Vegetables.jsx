@@ -8,11 +8,13 @@ import { useDispatch, useSelector } from "react-redux";
 
 const Vegetables = () => {
   const data = useSelector((state) =>
-    state.product.data.filter((el) => el.category.trim() === "Vegetables" || el.category.trim() === "vegetables")
+    state.product.data.filter((el) => el.category.trim() === "Vegetables" || el.category === "vegetables")
   );
+
+  console.log(data,"vege")
   return (
     <div className="category_section">
-      <Link to="/products/vegetables/daily-veggies" className="linkTag">
+      <Link to="/products/vegetables/dailyVeggies" className="linkTag">
         <h2 className="category_heading">
           VEGETABLES <span className="view_all">( View All )</span>
         </h2>

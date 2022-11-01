@@ -29,7 +29,7 @@ export default function Cart({ openCart, setOpenCart }) {
   useEffect(() => {
     let res = 0;
     for (let i = 0; i < cartItems.length; i++) {
-      res += cartItems[i].prize * cartItems[i].cart;
+      res += cartItems[i].price * cartItems[i].cart;
     }
     setCartTotal(res);
   }, [cartItems]);
@@ -54,15 +54,15 @@ export default function Cart({ openCart, setOpenCart }) {
           cartItems.map((ele) => (
             <div className="cart_container_prod_wrapper">
               <div className="cart_container_prod_img">
-                <img src={ele.image} alt="" className="cart_prod_img" />
+                <img src={ele.imgUrl} alt="" className="cart_prod_img" />
               </div>
               <div className="cart_prod_info">
                 <div className="cart_prod_name_prize">
                   <div className="cart_prod_name">{ele.name}</div>
-                  <div className="cart_prod_weight">{ele.weight}</div>
+                  <div className="cart_prod_weight">{ele.packSize}</div>
                   <div className="cart_prod_prize">
                     <BiRupee />
-                    {ele.prize}
+                    {ele.price}
                   </div>
                 </div>
                 

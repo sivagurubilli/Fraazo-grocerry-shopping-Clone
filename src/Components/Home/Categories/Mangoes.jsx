@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 const Mangoes = () => {
   const data = useSelector((state) =>
-    state.product.data.filter((el) => el.sub_category === "mangoes")
+    state.product.data.filter((el) => el.category === "mangoes")
   );
   console.log(data,"mang")
   return (

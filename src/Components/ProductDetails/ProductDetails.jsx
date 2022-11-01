@@ -10,7 +10,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch(`https://fraazo-clone.herokuapp.com/fraazo/${id}`)
+    fetch(`https://fraazo-guru.herokuapp.com/fraazo/${id}`)
       .then((res) => res.json())
       .then((res) => setProduct(res));
     window.scrollTo(0, 0);
@@ -29,19 +29,19 @@ const ProductDetails = () => {
         </div>
         <div className="product_details_infoDiv">
           <div className="product_details_imgDiv">
-            <img src={product.image} alt="" className="product_img" />
+            <img src={product.imgUrl} alt="" className="product_img" />
           </div>
           <div className="product_details_info">
             <div className="product_detail_name">{product.name}</div>
-            <div className="product_detail_weight">{product.weight}</div>
+            <div className="product_detail_weight">{product.packSize}</div>
             <div className="product_details_price_section">
               <div className="product_original_prize">
                 <BiRupee />
-                {product.prize}
+                {product.price}
               </div>
               <div className="product_old_prize">
-                {product.old_prize && <BiRupee />}
-                {product.old_prize}
+                {product.strickePrice && <BiRupee />}
+                {product.strickePrice}
               </div>
             </div>
             <div className="add_cart_buttonDiv">

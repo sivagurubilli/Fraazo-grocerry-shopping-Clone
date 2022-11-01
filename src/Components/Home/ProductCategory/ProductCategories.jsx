@@ -16,27 +16,27 @@ const ProductCategories = () => {
           <img src={mangoes} alt="" className="product_category_img" />
         </div>
       </Link>{" "}
-      <Link to="/products/fruits/apples-pears-plums">
+      <Link to="/products/fruits/freshFruits">
         <div className="product_categories_imgDiv">
           <img src={fruits} alt="" className="product_category_img" />
         </div>{" "}
       </Link>{" "}
-      <Link to="/products/vegetables/daily-veggies">
+      <Link to="/products/vegetables/dailyVeggies">
         <div className="product_categories_imgDiv">
           <img src={vegetables} alt="" className="product_category_img" />
         </div>{" "}
       </Link>{" "}
-      <Link to="/products/herbs/herbs-and-leafy-products">
+      <Link to="/products/herbs/herbsLeafies">
         <div className="product_categories_imgDiv">
           <img src={herbs} alt="" className="product_category_img" />
         </div>{" "}
       </Link>{" "}
-      <Link to="/products/dryfruits/premium-quality-dryfruits">
+      <Link to="/products/dryfruits/dryFruits">
         <div className="product_categories_imgDiv">
           <img src={dry_fruits} alt="" className="product_category_img" />
         </div>{" "}
       </Link>{" "}
-      <Link to="/products/kitchenstapels/dals-pulses">
+      <Link to="/products/kitchenStaples/daal">
         <div className="product_categories_imgDiv">
           <img src={kitchen_staples} alt="" className="product_category_img" />
         </div>{" "}

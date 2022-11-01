@@ -31,12 +31,13 @@ const ProductsList = () => {
     window.scroll(0, 0);
   }, [subcategory]);
 
-  console.log(subcategory,"subc")
+ 
   function fiterCategory() {
-    const filterData = data.filter((el) => el.sub_category == subcategory);
+    const filterData = data.filter((el) => el.subCatagory === subcategory);
 
     setProdData(filterData);
   }
+  console.log(data,"prodlist")
 
   return (
     <div className="app_container">
@@ -75,22 +76,22 @@ const ProductsList = () => {
                 {openFruits && (
                   <>
                     <Link
-                      to="/products/fruits/apples-pears-plums"
+                      to="/products/fruits/freshFruits"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
-                        {">"} {"   "}Apples, Pears, Plums
+                        {">"} {"   "}Fresh Fruits
                       </div>
                     </Link>
                     <Link
-                      to="/products/fruits/oranges-mosambi-melons"
+                      to="/products/fruits/exoticFruits"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
-                        {">"} {"   "} Oranges, Mosambi & Melons
+                        {">"} {"   "}Exotic Fruits
                       </div>
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/products/fruits/papaya-pineapple-pomegranate"
                       className="linkTag"
                     >
@@ -112,7 +113,7 @@ const ProductsList = () => {
                     >
                       <div className="prod_accordion-content">
                         {">"} {"   "} Exotic Fruits
-                      </div>
+                      </div> 
                     </Link>
                     <Link
                       to="/products/fruits/fruit-combos"
@@ -122,7 +123,7 @@ const ProductsList = () => {
                         {" "}
                         {">"} {"   "}Fruit Combos
                       </div>
-                    </Link>
+                </Link> */}
                   </>
                 )}
               </div>
@@ -137,14 +138,14 @@ const ProductsList = () => {
                 {openVegetables && (
                   <>
                     <Link
-                      to="/products/vegetables/daily-veggies"
+                      to="/products/vegetables/dailyVeggies"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
                         {">"} {"   "} Daily Veggies
                       </div>
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/products/vegetables/onion-potato-and-tomatoes"
                       className="linkTag"
                     >
@@ -159,9 +160,9 @@ const ProductsList = () => {
                       <div className="prod_accordion-content">
                         {">"} {"   "} Root Vegetable
                       </div>
-                    </Link>
+                    </Link> */}
                     <Link
-                      to="/products/vegetables/exotic-vegetables"
+                      to="/products/vegetables/exoticVegetables"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
@@ -169,21 +170,21 @@ const ProductsList = () => {
                       </div>
                     </Link>
                     <Link
-                      to="/products/vegetables/vegetable-combos"
+                      to="/products/vegetables/vegetableCombos"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
                         {">"} {"   "} Vegetable Combos
                       </div>
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/products/vegetables/cuts-peeled-and-sprouts"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
                         {">"} {"   "} Cuts, Peeled & Sprouts
                       </div>
-                    </Link>
+                    </Link> */}
                   </>
                 )}
               </div>
@@ -198,7 +199,7 @@ const ProductsList = () => {
                 {openHerbs && (
                   <>
                     <Link
-                      to="/products/herbs/herbs-and-leafy-products"
+                      to="/products/herbs/herbsLeafies"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
@@ -219,7 +220,7 @@ const ProductsList = () => {
                 {openDryFruits && (
                   <>
                     <Link
-                      to="/products/dryfruits/premium-quality-dryfruits"
+                      to="/products/dryfruits/dryFruits"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
@@ -240,7 +241,7 @@ const ProductsList = () => {
                 {openKitchenStaples && (
                   <>
                     <Link
-                      to="/products/kitchenstapels/dals-pulses"
+                      to="/products/kitchenStaples/daal"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
@@ -248,7 +249,7 @@ const ProductsList = () => {
                       </div>
                     </Link>
                     <Link
-                      to="/products/kitchenstapels/atta-flour-sooji"
+                      to="/products/kitchenStaples/atta"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">
@@ -256,7 +257,7 @@ const ProductsList = () => {
                       </div>
                     </Link>
                     <Link
-                      to="/products/kitchenstapels/rice-produts"
+                      to="/products/kitchenStaples/rice"
                       className="linkTag"
                     >
                       <div className="prod_accordion-content">

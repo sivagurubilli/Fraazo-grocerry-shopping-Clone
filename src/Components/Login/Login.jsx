@@ -53,7 +53,7 @@ export default function Login({ open, setOpen }) {
   const dispatch = useDispatch();
 
   const handleLogin = (loginData) => {
-    fetch("https://fraazo-clone.herokuapp.com/login", {
+    fetch("https://fraazo-guru.herokuapp.com/login", {
       method: "POST",
       body: JSON.stringify(loginData),
       headers: {
@@ -81,7 +81,7 @@ export default function Login({ open, setOpen }) {
       .catch((err) => console.log(err));
   };
   const handleSignup = (userData) => {
-    fetch("https://fraazo-clone.herokuapp.com/register", {
+    fetch("https://fraazo-guru.herokuapp.com/register", {
       method: "POST",
       body: JSON.stringify(userData),
       headers: {
@@ -212,9 +212,9 @@ export default function Login({ open, setOpen }) {
             sx={{ mt: 2, cursor: "pointer" }}
             onClick={() => showSignupForm(!signupForm)}
           >
-            <Typography id="modal-modal-title" variant="p" component="p">
+            <Typography id="modal-modal-title" variant="p" component="p" color="green">
               {!signupForm
-                ? "New to Fraazo.!  Click here to Create Your Account...!"
+                ? "New to Fraazo.! Clickhere to Create Your Account...!"
                 : "Already Have Account.!  Click here for SignIn..!"}
             </Typography>
           </Box>

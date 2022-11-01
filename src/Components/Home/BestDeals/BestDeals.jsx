@@ -10,6 +10,7 @@ const BestDeals = () => {
     state.product.data.filter((el) => el.tag === "best")
   );
 
+  console.log(data,"best")
   return (
     <div className="best_deals">
       <h2 className="best_deals_heading">BEST DEALS</h2>
