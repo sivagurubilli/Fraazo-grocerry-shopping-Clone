@@ -13,7 +13,7 @@ const Herbs = () => {
   );
   return (
     <div className="category_section">
-      <Link to="/products/herbs/herbs-and-leafy-products" className="linkTag">
+      <Link to="/products/herbs/herbsLeafies" className="linkTag">
         <h2 className="category_heading">
           HERBS <span className="view_all">( View All )</span>
         </h2>

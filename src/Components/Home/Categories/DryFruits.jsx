@@ -18,7 +18,7 @@ const DryFruits = () => {
   return (
     <div className="category_section">
       <Link
-        to="/products/dryfruits/premium-quality-dryfruits"
+        to="/products/dryfruits/dryFruits"
         className="linkTag"
       >
         {" "}

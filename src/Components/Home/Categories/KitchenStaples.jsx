@@ -16,7 +16,7 @@ const KitchenStaples = () => {
   );
   return (
     <div className="category_section">
-      <Link to="/products/kitchenstapels/dals-pulses" className="linkTag">
+      <Link to="/products/kitchenStaples/daal" className="linkTag">
         <h2 className="category_heading">
           KITCHEN STAPLES <span className="view_all">( View All )</span>
         </h2>

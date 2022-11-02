@@ -13,7 +13,7 @@ const Fruits = () => {
    );
   return (
     <div className="category_section">
-      <Link to="/products/fruits/apples-pears-plums" className="linkTag">
+      <Link to="/products/fruits/freshFruits" className="linkTag">
         <h2 className="category_heading">
           FRUITS <span className="view_all">( View All )</span>
         </h2>
