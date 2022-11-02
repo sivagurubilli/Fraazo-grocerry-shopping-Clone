@@ -26,7 +26,7 @@ export default function HorizontalLinearStepper() {
   const isStepSkipped = (step) => {
     return skipped.has(step);
   };
-
+  //go to  next page
   const handleNext = () => {
     if (activeStep === steps.length) {
       return;
@@ -43,14 +43,13 @@ export default function HorizontalLinearStepper() {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const userInfo = useSelector((state) => state.user.user);
 
-
+// got to previous page 
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-  const handleReset = () => {
-    setActiveStep(0);
-  };
+ 
+  
 
   return (
     <div className="checkout_wrapper">

@@ -14,9 +14,7 @@ import { ToastContainer } from "react-toastify";
   import "react-toastify/dist/ReactToastify.css";
 import Login from "./Components/Login/Login";
 
-const promise = loadStripe(
-  "pk_test_51L97nDSJamWgxW3FAkAQ3D2v127yEvkP8WF8YxSyrp3mGNwOxsSoeIvQNbAAgJatwVDDVLKGxpPMWpBvypXeWVN000GizGQda3"
-);
+
 function PrivateRoute({isLogin,children}) {
   if(isLogin){
     return children
@@ -25,11 +23,13 @@ function PrivateRoute({isLogin,children}) {
   return <Navigate to="/login"></Navigate>
 
 }
-
+const promise = loadStripe(
+  "pk_test_51L97nDSJamWgxW3FAkAQ3D2v127yEvkP8WF8YxSyrp3mGNwOxsSoeIvQNbAAgJatwVDDVLKGxpPMWpBvypXeWVN000GizGQda3"
+);
 function App() {
 
   const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState();
 
   return (
     <div className="App">
@@ -53,13 +53,15 @@ function App() {
           />
           <Route
             path="/checkout"
+          
             element={
+              
               <Elements stripe={promise}>
-               
-                <Checkout />
-                {!isLoggedIn && <Login open={true} setOpen={setOpen} />}
-                
-              </Elements>
+              
+              <Checkout />
+              {!isLoggedIn && <Login open={true} setOpen={setOpen} />}
+             
+            </Elements>
             }
           />
 

@@ -11,6 +11,7 @@ import {
   setLoggedIn,
 } from "../../Redux/user/action";
 import { toast } from "react-toastify";
+import { Navigate, useNavigate} from "react-router-dom";
 
 
 const style = {
@@ -30,7 +31,7 @@ const style = {
 
 export default function Login({ open, setOpen }) {
   const handleClose = () => setOpen(false);
-
+const navigate = useNavigate()
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -76,6 +77,7 @@ export default function Login({ open, setOpen }) {
           dispatch(addUserData(res));
           dispatch(setLoggedIn(true));
           handleClose();
+         
         }
       })
       .catch((err) => console.log(err));
