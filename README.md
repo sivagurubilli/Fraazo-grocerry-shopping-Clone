@@ -34,19 +34,19 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
     . jsonwebtoken
 
    
- ### Some Scrreshots of project : 
+ ### Some Screenshots of project : 
 <hr/>
 
  ### Landing Page :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true"> </div>
 <hr/>
- ### All items by Category Page :
+ <h3>All items by Category Page</h3> :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(245).png?raw=true"> </div>
 <hr/>
- ### Login and Signup Page :
+ <h3>Login and Signup Page</h3> :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(243).png?raw=true"> </div>
 <hr/>
- ### Landing Page :
+ <h2>Checkout Page</h2> :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(244).png?raw=true"> </div>
 <hr/>
 
