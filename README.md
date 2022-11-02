@@ -7,7 +7,7 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
 ### **Backend API Link** : https://fraazo-guru.herokuapp.com/
 
 <br/>
- <h2>Tools and Packages used in this Project</h2> :
+ <h2>Tools and Packages used in this Project   :</h2> 
 
 ### Frontend Side :
     . react.js
@@ -40,13 +40,13 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
  ### Landing Page :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true"> </div>
 <hr/>
- <h2>All items by Category Page  : </h2> 
+ <h3>All items by Category Page  : </h3> 
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(245).png?raw=true"> </div>
 <hr/>
  <h3>Login and Signup Page  : </h3> 
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(243).png?raw=true"> </div>
 <hr/>
- <h2>Checkout Page  : </h2> 
+ <h3>Checkout Page  : </h3> 
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(244).png?raw=true"> </div>
 <hr/>
 
