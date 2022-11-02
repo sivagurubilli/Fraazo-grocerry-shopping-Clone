@@ -38,7 +38,7 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
 
 
 - ### Landing Page :
-  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true> </div>
+  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true"> </div>
 <hr/>
 
 
