@@ -3,57 +3,51 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
 <br/>
 <br/>
 
-### **Backend API Link** : https://fraazo-clone.herokuapp.com/
+### **Deployed Link** : https://fraazo-guru.netlify.app/
+### **Backend API Link** : https://fraazo-guru.herokuapp.com/
 
 <br/>
-
-## _**If you like the application then give a star as a feedback..**_
-
-<br/>
-## **Initiating the project**
-One day I visit the fraazo site and I saw their good looking UI and Some functionalities. So after some time I started building my fraazo-clone. I completed this project individually as a side project. First I completed backend part and then I worked on front-end part.
-
-
-## Tools or Packages For Project 
+ <h2>Tools and Packages used in this Project   :</h2> 
 
 ### Frontend Side :
-    - @mui/material
-    - @redux-devtools/extension
-    - @stripe/react-stripe-js
-    - react
-    - react-dom
-    - react-icons
-    - react-redux
-    - react-router-dom
-    - react-scripts
-    - react-slick
-    - react-toastify
-    - reactjs-popup
-    - redux
-    - redux-thunk 
+    . react.js
+    . react-dom
+    . react-icons
+    . react-redux
+    . react-router-dom
+    . react-scripts
+    . react-slick
+    . react-toastify
+    . redux
+    . redux-thunk 
+    . @mui/material
+    . @stripe/react-stripe-js
+   
 
-### Backend Side :
-    - bcrypt
-    - bcryptjs
-    - cookie-parser
-    - cors
-    - dotenv
-    - express
-    - express-validator
-    - instamojo-nodejs
-    - jsonwebtoken
-    - mongoose
-    - passport    
-    - stripe
-    - uuid
+### Backend Side:
+    . node.js
+    . express.js
+    . mongoose
+    . cors
+    . dotenv
+    . express-validator
+    . jsonwebtoken
 
-## Some Scrreshots of project : 
-
-
-- ### Landing Page :
-  ![alt text](/Demo/Home.png)
-
+   
+ ### Some Screenshots of project : 
 <hr/>
 
+ ### Landing Page :
+  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true"> </div>
+<hr/>
+ <h3>All items by Category Page  : </h3> 
+  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(245).png?raw=true"> </div>
+<hr/>
+ <h3>Login and Signup Page  : </h3> 
+  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(243).png?raw=true"> </div>
+<hr/>
+ <h3>Checkout Page  : </h3> 
+  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(244).png?raw=true"> </div>
+<hr/>
 
-<h1>Thank you for visiting...!</h1>
+<h1>Thank you </h1>
