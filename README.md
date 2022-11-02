@@ -34,8 +34,8 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
     . jsonwebtoken
 
    
-## Some Scrreshots of project : 
-
+ ### Some Scrreshots of project : 
+<hr/>
 
  ### Landing Page :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(242).png?raw=true"> </div>
@@ -46,7 +46,7 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
  ### Login and Signup Page :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(243).png?raw=true"> </div>
 <hr/>
- ### Checkout Page :
+ ### Landing Page :
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(244).png?raw=true"> </div>
 <hr/>
 
