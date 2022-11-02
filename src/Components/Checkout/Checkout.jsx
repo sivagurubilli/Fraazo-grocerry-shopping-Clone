@@ -16,10 +16,15 @@ import { useSelector } from "react-redux";
 
 const steps = [1, 2, 3];
 
-export default function HorizontalLinearStepper() {
+export default function Checkout() {
+
+  // scrollto function in useEffect for go to top of page 
+
+    useEffect(() => { 
+      window.scrollTo(0, 0);
+    },[])
 
 
-  useEffect(() => { window.scrollTo(0, 0);},[])
   const [activeStep, setActiveStep] = useState(0);
   const [skipped, setSkipped] = useState(new Set());
 
@@ -36,8 +41,7 @@ export default function HorizontalLinearStepper() {
       newSkipped = new Set(newSkipped.values());
       newSkipped.delete(activeStep);
     }
-
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+ setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
 
   const cartItems = useSelector((state) => state.cart.cartItems);
@@ -52,8 +56,10 @@ export default function HorizontalLinearStepper() {
   
 
   return (
+
     <div className="checkout_wrapper">
       <div className="checkout_stepper_wrapper">
+        {/* top side stepper  */}
         <Stepper activeStep={activeStep} className="checkout_stepper">
           {steps.map((label, index) => {
             const stepProps = {};
@@ -70,6 +76,8 @@ export default function HorizontalLinearStepper() {
           })}
         </Stepper>
       </div>
+
+
       <div className="checkout_main_container">
         <Box className="checkout_stepper_details">
           {activeStep == 0 && <CheckOutCartDetails />}

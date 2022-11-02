@@ -34,10 +34,10 @@ const ProductsList = () => {
  
   function fiterCategory() {
     const filterData = data.filter((el) => el.subCatagory === subcategory);
-
-    setProdData(filterData);
+ setProdData(filterData);
   }
-  console.log(data,"prodlist")
+
+  //console.log(data,"prodlist")
 
   return (
     <div className="app_container">
@@ -91,39 +91,7 @@ const ProductsList = () => {
                         {">"} {"   "}Exotic Fruits
                       </div>
                     </Link>
-                    {/* <Link
-                      to="/products/fruits/papaya-pineapple-pomegranate"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Papaya, Pineapple, Pomegranate
-                      </div>
-                    </Link>
-                    <Link
-                      to="/products/fruits/grapes-banana-guava-sapota"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Grapes, Banana, Guava & Sapota
-                      </div>
-                    </Link>
-                    <Link
-                      to="/products/fruits/exotic-fruits"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Exotic Fruits
-                      </div> 
-                    </Link>
-                    <Link
-                      to="/products/fruits/fruit-combos"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {" "}
-                        {">"} {"   "}Fruit Combos
-                      </div>
-                </Link> */}
+                   
                   </>
                 )}
               </div>
@@ -145,22 +113,7 @@ const ProductsList = () => {
                         {">"} {"   "} Daily Veggies
                       </div>
                     </Link>
-                    {/* <Link
-                      to="/products/vegetables/onion-potato-and-tomatoes"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Onion, Potato & Tomatoes
-                      </div>
-                    </Link>
-                    <Link
-                      to="/products/vegetables/root-vegetables"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Root Vegetable
-                      </div>
-                    </Link> */}
+                    
                     <Link
                       to="/products/vegetables/exoticVegetables"
                       className="linkTag"
@@ -177,14 +130,7 @@ const ProductsList = () => {
                         {">"} {"   "} Vegetable Combos
                       </div>
                     </Link>
-                    {/* <Link
-                      to="/products/vegetables/cuts-peeled-and-sprouts"
-                      className="linkTag"
-                    >
-                      <div className="prod_accordion-content">
-                        {">"} {"   "} Cuts, Peeled & Sprouts
-                      </div>
-                    </Link> */}
+                    
                   </>
                 )}
               </div>

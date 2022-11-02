@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { descCartProd, incCartProd, removeFromCart } from "../../Redux/cart/action";
 import emptyCartImg from "../../Images/empty-cart.png";
 
+
+// cart function
 export default function Cart({ openCart, setOpenCart }) {
   const cartItems = useSelector((store) => store.cart.cartItems);
 

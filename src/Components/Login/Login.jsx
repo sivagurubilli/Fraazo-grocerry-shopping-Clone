@@ -22,7 +22,6 @@ const style = {
   minWidth: 400,
   width: 420,
   bgcolor: "background.paper",
-  // border: "2px solid #000",
   outline: 0,
   boxShadow: 24,
   p: 6,
@@ -52,7 +51,8 @@ const navigate = useNavigate()
   };
 
   const dispatch = useDispatch();
-
+  
+ // login function 
   const handleLogin = (loginData) => {
     fetch("https://fraazo-guru.herokuapp.com/login", {
       method: "POST",
@@ -63,10 +63,10 @@ const navigate = useNavigate()
     })
       .then((res) => res.json())
       .then((res) => {
-        // console.log("res:", res);
+        
         if (res.errors) {
           let error = res.errors[0];
-          // console.log("error:", error);
+        
           toast.error(error.msg);
         } else if (res.message !== "Login Successful") {
           toast.error(res.message);
@@ -82,6 +82,8 @@ const navigate = useNavigate()
       })
       .catch((err) => console.log(err));
   };
+
+  // signup function
   const handleSignup = (userData) => {
     fetch("https://fraazo-guru.herokuapp.com/register", {
       method: "POST",

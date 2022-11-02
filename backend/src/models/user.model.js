@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const bcrypt = require("bcrypt");
 
+ // userSchema for creating user model how the user data should be in MogoDB
 const userSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: false },
@@ -18,7 +19,7 @@ userSchema.pre("save", function (next) {
 });
 
 userSchema.methods.checkPassword = function (password) {
-  // console.log('password:', password,'this : ',this.password)
+ 
   return bcrypt.compareSync(password, this.password);
 };
 

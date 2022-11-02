@@ -18,11 +18,8 @@ import { toast } from "react-toastify";
 function CheckOutStripe() {
 
   const navigate = useNavigate();
- 
-      const dispatch = useDispatch()
-
-
- const cartItems = useSelector((state) => state.cart.cartItems);
+   const dispatch = useDispatch()
+  const cartItems = useSelector((state) => state.cart.cartItems);
 
  const cartTotal = cartItems.reduce((acc, el) => {
    return acc + el.cart * el.prize;
@@ -38,15 +35,13 @@ function CheckOutStripe() {
   const handleSubmit = async (event) => {
    
     event.preventDefault();
- notify()
- dispatch(emptyCart())
-   setTimeout(()=>{
-
-    navigate("/")
-   },5000)
-
-       
+    notify()
+    dispatch(emptyCart())
    
+     setTimeout(()=>{
+   navigate("/")
+       },5000) 
+ 
   };
   
   

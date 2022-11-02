@@ -16,12 +16,9 @@ const Navbar = () => {
   const [openLogin, setOpenLogin] = React.useState(false);
   const [openLogout, setOpenLogout] = useState(false);
 
-
-
-   const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartItems = useSelector((state) => state.cart.cartItems);
   const userData = useSelector((state) => state.user);
   const user = userData.user;
-
   const dispatch = useDispatch();
 
   return (

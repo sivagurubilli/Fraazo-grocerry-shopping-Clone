@@ -9,6 +9,9 @@ import AddToCartBtn from "../AddToCart Button/AddToCartBtn";
 const ProductDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});
+
+
+  // get the individual product data by its id
   useEffect(() => {
     fetch(`https://fraazo-guru.herokuapp.com/fraazo/${id}`)
       .then((res) => res.json())
@@ -21,6 +24,9 @@ const ProductDetails = () => {
     benefit: false,
     info: false,
   });
+
+
+  
   return (
     <div className="app_container">
       <div className="product_details_page">

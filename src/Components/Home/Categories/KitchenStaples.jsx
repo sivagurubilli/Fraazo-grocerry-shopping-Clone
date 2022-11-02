@@ -6,7 +6,7 @@ import ProductCard from "../../ProductCard/ProductCard";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
-
+// get all kitchen staples data
 const KitchenStaples = () => {
   const data = useSelector((state) =>
     state.product.data.filter(

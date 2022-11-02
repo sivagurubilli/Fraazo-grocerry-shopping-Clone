@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+
+// product schema for creating model for creating the product model in database in MongoDB
 const ProductSchema = mongoose.Schema({
   id: Number,
   imgUrl:String,

@@ -15,9 +15,13 @@ import { useDispatch, useSelector } from "react-redux";
 const Home = () => {
   const dispatch = useDispatch();
 
+  // get the the all products in databse 
   useEffect(() => {
     dispatch(getProducts());
   }, []);
+
+
+
   return (
     <div className="home_section">
       <div className="app_container">
