@@ -14,12 +14,12 @@ app.use(cors());
 app.use(express.json())
 
 
-const fraazoController = require("./controllers/fraazo.controller");
+const productController = require("./controllers/product.controller");
 const userController = require("./controllers/user.controller");
 const Defaultdata = require("../default");
 
 //based on route it calls the function 
-app.use("/fraazo", fraazoController);
+app.use("/fraazo", productController);
 app.use("/user", userController);
 app.post("/register",register);
 app.post("/login",login);
