@@ -1,9 +1,5 @@
 import {
-
-  
-  CardElement,
-  
-  
+CardElement,
 } from "@stripe/react-stripe-js";
 import "./Checkout.css"
 

@@ -24,7 +24,7 @@ function PrivateRoute({isLogin,children}) {
 
 }
 const promise = loadStripe(
-  "pk_test_51L97nDSJamWgxW3FAkAQ3D2v127yEvkP8WF8YxSyrp3mGNwOxsSoeIvQNbAAgJatwVDDVLKGxpPMWpBvypXeWVN000GizGQda3"
+  "pk_test_51LzkjnSCIyzpdUjKOL1CjNkYfRaj8MkkpQMvzqppatpSmirj1mRIwkw5ijXh31U0pbR8PVwXe8Gb2RhopgcuriDD001LAIARts"
 );
 function App() {
 

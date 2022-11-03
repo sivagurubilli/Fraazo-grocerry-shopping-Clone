@@ -14,6 +14,7 @@ const KitchenStaples = () => {
         el.category.trim() === "kitchenStaples" 
     )
   );
+  
   return (
     <div className="category_section">
       <Link to="/products/kitchenStaples/daal" className="linkTag">
