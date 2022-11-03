@@ -45,7 +45,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Install
 
     $ git clone https://github.com/sivagurubilli/fraazo-clone.git
-    $ cd fraazo-clone
+    $ cd fraazo-clone/backend
     $ npm install
 
 ## Configure app
