@@ -44,7 +44,7 @@ Fraazo sources the products from local Farmers and make available on their onlin
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(242).png?raw=true"> </div>
 <hr/>
  <h3>All items by Category Page  : </h3> 
-  <div> <"https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(245).png?raw=true"> </div>
+  <div> <img src= "https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(245).png?raw=true"> </div>
 <hr/>
  <h3>Login and Signup Page  : </h3> 
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(243).png?raw=true"> </div>
