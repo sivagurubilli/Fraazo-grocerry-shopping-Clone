@@ -1,6 +1,9 @@
-# fraazo-clone
-Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.com)</u> , and for those who don’t know Fraazo, Fraazo follows a farm-to-fork model where it owns the entire back-end supply chain starting with farmers, and delivers them fresh to customers.
+# Fraazo-clone
+<h2>About Fraazo</h2>
+Hi most of you would be knowing about <u>[Fraazo.com](https://fraazo.com)</u> , and for those who don’t know Fraazo, Fraazo follows a farm-to-fork model where it owns the entire back-end supply chain starting with farmers, and delivers them fresh to customers.
 <br/>
+<h3>How it works : </h3>
+Fraazo sources the products from local Farmers and make available on their online platform in different segments users can visit their site and purchase the products and pay the money online to supplier then deliver persons drops the items with in two hours at your door step.
 <br/>
 
 ### **Deployed Link** : https://fraazo-guru.netlify.app/
@@ -34,7 +37,7 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
     . jsonwebtoken
 
    
- ### Some Screenshots of project : 
+ ### Some Screenshots of Project : 
 <hr/>
 
  ### Landing Page :
@@ -49,5 +52,28 @@ Hello readers most of you would be knowing about <u>[Fraazo.com](https://fraazo.
  <h3>Checkout Page  : </h3> 
   <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/src/Images/Screenshot%20(244).png?raw=true"> </div>
 <hr/>
+
+## Running it on your local machine
+
+### Prerequisites
+
+You need latest version of NodeJS and Yarn installed, which is a dependency manager for Node/JS.
+
+### Getting Started
+
+Once you have that, run following commands to get the project up and running:
+
+    git clone https://github.com/sivagurubilli/fraazo-clone.git
+    cd fraazo-clone
+    npm  install
+    npm run dev
+    Runs the app in developement mode.
+    Open https://localhost:5173 to view it in browser.
+    The page will reload when you make changes.
+    You may also seen any lint errors in the console.
+    
+ For build the apllication 
+  npm run build
+  It correctly bundles React in production mode and optimizes the build for the best Performance.
 
 <h1>Thank you </h1>
