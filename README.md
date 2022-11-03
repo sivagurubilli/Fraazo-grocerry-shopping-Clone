@@ -3,7 +3,7 @@
 Hi most of you would be knowing about <u>[Fraazo.com](https://fraazo.com)</u> , and for those who don’t know Fraazo, Fraazo follows a farm-to-fork model where it owns the entire back-end supply chain starting with farmers, and delivers them fresh to customers.
 <br/>
 <h3>How it works : </h3>
-Fraazo sources the products from local Farmers and make available on their online platform in different segments users can visit their site and purchase the products and pay the money online to supplier then deliver persons drops the items with in two hours at your door step.
+Fraazo sources the products from local Farmers and make available on their online platform in different segments. Users can visit their site and purchase the products and pay the money via online payment gateways  to supplier then delivery person drops the items with in two hours at your door step.
 <br/>
 
 ### **Deployed Link** : https://fraazo-guru.netlify.app/
@@ -72,8 +72,8 @@ Once you have that, run following commands to get the project up and running:
     The page will reload when you make changes.
     You may also seen any lint errors in the console.
     
- For build the apllication 
-  npm run build
-  It correctly bundles React in production mode and optimizes the build for the best Performance.
+ ###  For build the apllication :
+      npm run build
+      It correctly bundles React in production mode and optimizes the build for the best Performance.
 
 <h1>Thank you </h1>
